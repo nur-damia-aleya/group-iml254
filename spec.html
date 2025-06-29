@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title> special offers </title>
+  <link rel="stylesheet" href="spec.css">
+</head>
+<body>
+
+<h1>Special Offer</h1>
+
+<h2>Sweet treat only for you!</h2>
+
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <img src="posterbara.png" style="width:100%">
+</div>
+
+<div class="mySlides fade">
+  <img src="newmerch.png" style="width:100%">
+</div>
+
+<div class="mySlides fade">
+  <img src="promo.png" style="width:100%">
+</div>
+
+<a class="prev" onclick="plusSlides(-1)">❮</a>
+<a class="next" onclick="plusSlides(1)">❯</a>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span> 
+</div>
+
+<script>
+let slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+</script>
+
+  <div class="container">
+    <div class="box">
+        <p>✨ New to Meltea? Your first one's on us
+        <p>Take 20% off and enjoy free delivery on your first order. Sweet, smooth, and right to your door.</p>
+        </p>
+    </div>
+
+    <div class="box">
+        <p>🎁 Get Exclusive Meltea Merch
+        <p>Use our first-time promo and receive a FREE limited-edition Meltea merchandise with your purchase. Cute, cool, and only while stocks last!
+    </div>
+  </div>
+
+<div style="margin-top: 100px; width: 100%; padding-left: 10px;">
+  <p style="text-align: left; font-family: verdana; font-size: 14px; font-weight: bold; margin: 0;"> Disclaimer: </p>
+  <p style="text-align:  left; font-family: verdana; font-size: 14px; margin: 0;">
+    For best viewing experience, use Google Chrome | 1366 x 768 resolution | last updated: 30 June 2025 <br />
+    ©2025 Aida Sofea Binti Mohd Hidil, Nur Damia Aleya Binti Muhammad Ibrahim, Nur Syazwina Binti Ibrahim & Nurjeha Mawaddah Binti Asri. <br />
+    Some media elements like artwork and pictures are original works by the website owners and may not be used without permission. This is not the official website of Meltea and was developed for the purpose of learning XHTML and CSS only. <br />
+  </p>
+</div>
+
+</body>
+</html> 

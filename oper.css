@@ -1,0 +1,65 @@
+body {
+   background: linear-gradient(to bottom, #99ccff 0%, #cc99ff 100%);
+}
+
+h1 {
+  color: #562619;
+  font-family: 'Segou UI',verdana;
+  font-size: 50px;
+  text-align: center;
+  padding: 50px;
+  text-shadow: 2px 2px #c95831;  
+}
+
+table, th, td {
+  text-align: center;
+  font-family: 'Segou UI',verdana;
+  border:3px solid black;
+  border-collapse: collapse;
+}
+
+table.style {
+  width: 60%;
+  height: 20%;
+  margin-left: 20%; 
+  margin-right: 20%;
+  padding: 50px;
+  box-shadow: 2px 3px 6px black;
+}
+
+#rcorners {
+  border-radius: 25px;
+  background: #ffe4b3;
+  border: 3px solid #5621619;
+  padding: 20px; 
+  margin: 40px auto;
+  width: 400px;
+  height: 80px;  
+  text-align: center;
+  box-shadow: 5px 10px #c95831;
+  font-family: 'Segou UI',verdana;
+  font-size: 15px;
+}
+
+a:link {
+  color: #c95831;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:visited {
+  color: #562619;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:hover {
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
+}
+a:active {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+

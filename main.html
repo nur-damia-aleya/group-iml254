@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title> home </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+ <style>
+    body {
+      background: linear-gradient(141deg, #FFE4B3 0%, #FFE4B3 15%, #EFB1B1 75%);
+      font-family: 'Segoe UI', verdana;
+    }
+
+    .centered-img {
+      display: block;
+      margin: 20px auto;
+      margin-bottom: 40px; 
+      background-color: #E0D976;
+    }
+
+    .button {
+      background-color: #3E1B11;
+      border: none;
+      color: #FFF0F5;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      font-family: verdana;
+      font-weight: bold;
+      cursor: pointer;
+      border-radius: 30px;
+      transition-duration: 0.10s;
+      outline: none;          
+      box-shadow: none; 
+    }
+    .button-prod {
+      padding: 15px 28px;
+    }
+    .button-prod:hover {
+      background-color: #9AD6BF; 
+      color: white; 
+
+    }
+    .button-wrapper {
+      width: 100%;
+      text-align: center;
+      margin-bottom: 60px;
+      display: block;
+    }
+
+    .coupon-wrapper {
+      display: flex;
+      gap: 20px; 
+      justify-content: center; 
+      flex-wrap: wrap;
+    }
+
+    .coupon {
+      width: 45%;
+      max-width: 500px;
+      box-shadow:
+        15px 15px 13px #BCA98C;
+
+    }
+    .container {
+      padding: 5px 10px;
+      background-color: #FFF0F5;
+  
+    }
+    .center-text {
+      text-align: center;
+      font-family: verdana;
+      font-size: 20px;
+    }
+    .left-text {
+      text-align: left;
+      font-family: verdana;
+      font-size: 13px;
+    }
+    .promo {
+      background: #FFF0F5;
+      padding: 3px;
+    }
+    .expire {
+      color: red;
+    }
+
+    .checked {
+      color: orange;
+    }
+
+    .col-container {
+      display: flex;
+      gap: 0px;
+      justify-content: center;
+      flex-wrap: wrap;
+      padding: 0px;
+    }
+    .col {
+      flex: 1 1 300px; 
+      max-width: 400px;
+      padding: 16px;
+      box-sizing: border-box;
+    }
+    .beara-img {
+      display: block;
+      margin-top: 20px;
+      margin-bottom: 20px;
+      margin-left: 0;
+      float: right;
+      border: 1px dotted black;
+      margin: 0px 0px 15px 20px;
+    }
+    .beara-img:hover {
+      animation: shake 0.5s;
+      animation-iteration-count: infinite;
+    }
+    @keyframes shake {
+      0% { transform: translate(1px, 1px) rotate(0deg); }
+      10% { transform: translate(-1px, -2px) rotate(-1deg); }
+      20% { transform: translate(-3px, 0px) rotate(1deg); }
+      30% { transform: translate(3px, 2px) rotate(0deg); }
+      40% { transform: translate(1px, -1px) rotate(1deg); }
+      50% { transform: translate(-1px, 2px) rotate(-1deg); }
+      60% { transform: translate(-3px, 1px) rotate(0deg); }
+      70% { transform: translate(3px, 1px) rotate(-1deg); }
+      80% { transform: translate(-1px, -1px) rotate(1deg); }
+      90% { transform: translate(1px, 2px) rotate(0deg); }
+      100% { transform: translate(1px, -2px) rotate(-1deg); }
+    }
+ </style>
+</head>
+<body>
+
+<div class="coupon-wrapper">  
+ <div class="coupon">
+    <div class="container center-text">
+       <h3><b> NEW CUSTOMERS SPECIAL! </b></h3> 
+    </div>
+    <img src="promo.png" alt="Avatar" style="width:100%; height: 210px; object-fit: cover;" />
+    <div class="container left-text" style="background-color: white">
+       <p> First time here? Let us welcome you! <br />
+        Enjoy an exclusive <b>20% DISCOUNT & FREE DELIVERY</b> for your first purchase with us.
+        It's our way of saying hello. Visit our shop to find your MELTEA flavor!
+       </p>
+    </div>
+    <div class="container left-text">
+       <p> Use Promo Code: <span class="promo"> MELTEA20 </span></p>
+       <p class="expire"> Expires: 7 July, 2025 </p>
+    </div>
+ </div>
+ <div class="coupon">
+    <div class="container center-text">
+       <h3><b> EARLY BIRD SPECIAL! </b></h3> 
+    </div>
+    <img src="newmerch.png" alt="Avatar" style="width:100%; height: 210px; object-fit: cover;" />
+    <div class="container left-text" style="background-color: white">
+       <p> Grab our new <b>LIMITED EDITION MERCHANDISE</b><br /> from our shop and
+        enjoy your MELTEA cup in style! <br />
+        Use the promo code below for an early bird <b>15% DISCOUNT</b><br />
+        Share your new MELTEA look with us by tagging our Instagram.
+       </p>
+    </div>
+    <div class="container left-text">
+       <p> Use Promo Code: <span class="promo"> MELTEA15 </span></p>
+       <p class="expire"> Expires: 7 July, 2025 </p>
+    </div>
+ </div>
+
+<div class="marquee">
+  <marquee behavior="scroll" direction="left" scrollamount="15" style="margin-top: 20px;">
+     <p style="font-family: verdana;">
+      ICE CREAM FOR ALL | MELTEA CO. | NATURAL INGREDIENTS | FUN FLAVORS | ICE CREAM FOR ALL | MELTEA CO. | NATURAL INGREDIENTS | FUN FLAVORS | 
+      ICE CREAM FOR ALL | MELTEA CO. | NATURAL INGREDIENTS | FUN FLAVORS | ICE CREAM FOR ALL | MELTEA CO. | NATURAL INGREDIENTS | FUN FLAVORS | 
+      ICE CREAM FOR ALL | MELTEA CO. | NATURAL INGREDIENTS | FUN FLAVORS | ICE CREAM FOR ALL | MELTEA CO. | NATURAL INGREDIENTS | FUN FLAVORS | 
+      ICE CREAM FOR ALL | MELTEA CO. | NATURAL INGREDIENTS | FUN FLAVORS | ICE CREAM FOR ALL | MELTEA CO. | NATURAL INGREDIENTS | FUN FLAVORS | 
+      ICE CREAM FOR ALL | MELTEA CO. | NATURAL INGREDIENTS | FUN FLAVORS | ICE CREAM FOR ALL | MELTEA CO. | NATURAL INGREDIENTS | FUN FLAVORS | 
+      ICE CREAM FOR ALL | MELTEA CO. | NATURAL INGREDIENTS | FUN FLAVORS | ICE CREAM FOR ALL | MELTEA CO. | NATURAL INGREDIENTS | FUN FLAVORS | 
+      ICE CREAM FOR ALL | MELTEA CO. | NATURAL INGREDIENTS | FUN FLAVORS | ICE CREAM FOR ALL | MELTEA CO. | NATURAL INGREDIENTS | FUN FLAVORS | 
+      ICE CREAM FOR ALL | MELTEA CO. | NATURAL INGREDIENTS | FUN FLAVORS | ICE CREAM FOR ALL | MELTEA CO. | NATURAL INGREDIENTS | FUN FLAVORS |
+      ICE CREAM FOR ALL | MELTEA CO. | NATURAL INGREDIENTS | FUN FLAVORS | ICE CREAM FOR ALL | MELTEA CO. | NATURAL INGREDIENTS | FUN FLAVORS | 
+      ICE CREAM FOR ALL | MELTEA CO. | NATURAL INGREDIENTS | FUN FLAVORS | ICE CREAM FOR ALL | MELTEA CO. | NATURAL INGREDIENTS | FUN FLAVORS | 
+      ICE CREAM FOR ALL | MELTEA CO. | NATURAL INGREDIENTS | FUN FLAVORS | ICE CREAM FOR ALL | MELTEA CO. | NATURAL INGREDIENTS | FUN FLAVORS | 
+      ICE CREAM FOR ALL | MELTEA CO. | NATURAL INGREDIENTS | FUN FLAVORS | ICE CREAM FOR ALL | MELTEA CO. | NATURAL INGREDIENTS | FUN FLAVORS | 
+      ICE CREAM FOR ALL | MELTEA CO. | NATURAL INGREDIENTS | FUN FLAVORS | ICE CREAM FOR ALL | MELTEA CO. | NATURAL INGREDIENTS | FUN FLAVORS | 
+      ICE CREAM FOR ALL | MELTEA CO. | NATURAL INGREDIENTS | FUN FLAVORS | ICE CREAM FOR ALL | MELTEA CO. | NATURAL INGREDIENTS | FUN FLAVORS | 
+      ICE CREAM FOR ALL | MELTEA CO. | NATURAL INGREDIENTS | FUN FLAVORS | ICE CREAM FOR ALL | MELTEA CO. | NATURAL INGREDIENTS | FUN FLAVORS | 
+      ICE CREAM FOR ALL | MELTEA CO. | NATURAL INGREDIENTS | FUN FLAVORS | ICE CREAM FOR ALL | MELTEA CO. | NATURAL INGREDIENTS | FUN FLAVORS |
+      ICE CREAM FOR ALL | MELTEA CO. | NATURAL INGREDIENTS | FUN FLAVORS | ICE CREAM FOR ALL | MELTEA CO. | NATURAL INGREDIENTS | FUN FLAVORS | 
+      ICE CREAM FOR ALL | MELTEA CO. | NATURAL INGREDIENTS | FUN FLAVORS | ICE CREAM FOR ALL | MELTEA CO. | NATURAL INGREDIENTS | FUN FLAVORS | 
+      ICE CREAM FOR ALL | MELTEA CO. | NATURAL INGREDIENTS | FUN FLAVORS | ICE CREAM FOR ALL | MELTEA CO. | NATURAL INGREDIENTS | FUN FLAVORS | 
+      ICE CREAM FOR ALL | MELTEA CO. | NATURAL INGREDIENTS | FUN FLAVORS | ICE CREAM FOR ALL | MELTEA CO. | NATURAL INGREDIENTS | FUN FLAVORS | 
+      ICE CREAM FOR ALL | MELTEA CO. | NATURAL INGREDIENTS | FUN FLAVORS | ICE CREAM FOR ALL | MELTEA CO. | NATURAL INGREDIENTS | FUN FLAVORS | 
+      ICE CREAM FOR ALL | MELTEA CO. | NATURAL INGREDIENTS | FUN FLAVORS | ICE CREAM FOR ALL | MELTEA CO. | NATURAL INGREDIENTS | FUN FLAVORS | 
+      ICE CREAM FOR ALL | MELTEA CO. | NATURAL INGREDIENTS | FUN FLAVORS | ICE CREAM FOR ALL | MELTEA CO. | NATURAL INGREDIENTS | FUN FLAVORS | 
+      ICE CREAM FOR ALL | MELTEA CO. | NATURAL INGREDIENTS | FUN FLAVORS | ICE CREAM FOR ALL | MELTEA CO. | NATURAL INGREDIENTS | FUN FLAVORS |
+      ICE CREAM FOR ALL | MELTEA CO. | NATURAL INGREDIENTS | FUN FLAVORS | ICE CREAM FOR ALL | MELTEA CO. | NATURAL INGREDIENTS | FUN FLAVORS | 
+      ICE CREAM FOR ALL | MELTEA CO. | NATURAL INGREDIENTS | FUN FLAVORS | ICE CREAM FOR ALL | MELTEA CO. | NATURAL INGREDIENTS | FUN FLAVORS | 
+      ICE CREAM FOR ALL | MELTEA CO. | NATURAL INGREDIENTS | FUN FLAVORS | ICE CREAM FOR ALL | MELTEA CO. | NATURAL INGREDIENTS | FUN FLAVORS | 
+      ICE CREAM FOR ALL | MELTEA CO. | NATURAL INGREDIENTS | FUN FLAVORS | ICE CREAM FOR ALL | MELTEA CO. | NATURAL INGREDIENTS | FUN FLAVORS | 
+      ICE CREAM FOR ALL | MELTEA CO. | NATURAL INGREDIENTS | FUN FLAVORS | ICE CREAM FOR ALL | MELTEA CO. | NATURAL INGREDIENTS | FUN FLAVORS | 
+      ICE CREAM FOR ALL | MELTEA CO. | NATURAL INGREDIENTS | FUN FLAVORS | ICE CREAM FOR ALL | MELTEA CO. | NATURAL INGREDIENTS | FUN FLAVORS | 
+      ICE CREAM FOR ALL | MELTEA CO. | NATURAL INGREDIENTS | FUN FLAVORS | ICE CREAM FOR ALL | MELTEA CO. | NATURAL INGREDIENTS | FUN FLAVORS | 
+      ICE CREAM FOR ALL | MELTEA CO. | NATURAL INGREDIENTS | FUN FLAVORS | ICE CREAM FOR ALL | MELTEA CO. | NATURAL INGREDIENTS | FUN FLAVORS |
+     </p>
+  </marquee>
+</div>
+
+<img src="melt.jpg" alt="ice cream" class="centered-img" />
+
+<div class="button-wrapper">
+    <a href="prod.html" class="button button-prod" target="home"> SHOP NOW </a>
+</div>
+
+<h1 style="font-family: verdana; text-align: center; color: white; margin-top: 0; margin-bottom: 10px;">
+     Hear from Our Customers! </h1>
+
+<div class="col-container" style="padding: 0px;">
+  <div class="col" style="background: #FFF0F5; font-family: verdana;">
+    <span class="fa fa-star checked"></span>
+    <span class="fa fa-star checked"></span>
+    <span class="fa fa-star checked"></span>
+    <span class="fa fa-star checked"></span>
+    <span class="fa fa-star checked"></span>
+    <h5> Leon Scott K. </h5>
+    <p> Definitely the best place to get ice cream.
+        My go-to flavor is their classic vanilla. 
+        It's really soft and creamy. Perfect after a
+        long day of protecting local residents. </p>
+  </div>
+
+  <div class="col" style="background: white; font-family: verdana;">
+    <span class="fa fa-star checked"></span>
+    <span class="fa fa-star checked"></span>
+    <span class="fa fa-star checked"></span>
+    <span class="fa fa-star checked"></span>
+    <span class="fa fa-star checked"></span>
+    <h5> Lana Hashmi </h5>
+    <p> Everyone go try the matcha! It's so good
+        and rich, you can tell the ingredients are all natural :D
+        I'm recommending it to everybody I know from now on! Hihi.
+    </p>
+  </div>
+
+  <div class="col" style="background: #FFF0F5; font-family: verdana;">
+    <span class="fa fa-star checked"></span>
+    <span class="fa fa-star checked"></span>
+    <span class="fa fa-star checked"></span>
+    <span class="fa fa-star checked"></span>
+    <span class="fa fa-star checked"></span>
+    <h5> Ben Zizi </h5>
+    <p> Classic flavors, yeah. But they surprisingly taste
+        super good. I don't comment much, but this deserves recognition.
+        Hands down well-made ice cream for sure. My favourite is chocolate.
+        Makes me feel nice.
+    </p>
+  </div>
+</div>
+
+<p style="font-size: 30px; font-family: verdana; font-weight: bold; text-align: center;">
+    <img src="beara.jpg" alt="capybear" class="beara-img" width="400" height="300">
+        <br /> Missed the announcement? <br />
+        Well, let us remind you &#128064; <br />
+        This month's Special Product is inspired by the world's favourite Chill Guy &#127827;
+        <br /> Check it out <br />
+    <a href="spec.html" class="button button-prod" target="home"> here </a>
+</p>
+
+<div style="margin-top: 100px; width: 100%; padding-left: 10px;">
+  <p style="text-align: left; font-weight: bold; margin: 0;"> Disclaimer: </p>
+  <p style="text-align: left; margin: 0;">
+    For best viewing experience, use Google Chrome | 1366 x 768 resolution | last updated: 30 June 2025 <br />
+    ©2025 Aida Sofea Binti Mohd Hidil, Nur Damia Aleya Binti Muhammad Ibrahim, Nur Syazwina Binti Ibrahim & Nurjeha Mawaddah Binti Asri. <br />
+    Some media elements like artwork and pictures are original works by the website owners and may not be used without permission. This is not the official website of Meltea and was developed for the purpose of learning XHTML and CSS only. <br />
+  </p>
+</div>
+
+</body>
+</html>
+
+
+
+
+

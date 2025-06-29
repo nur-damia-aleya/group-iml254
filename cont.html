@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <title> contact options </title>
+  <style type="text/css">
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #fffafa;
+      text-align: center;
+      margin: 0;
+      padding: 40px;
+      color: #222222;
+    }
+
+    .container {
+      max-width: 600px;
+      margin: auto;
+      background-color: #fff;
+      padding: 30px;
+      border-radius: 20px;
+      box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+    }
+
+    h1 {
+      color: #efb1b1;
+      margin-bottom: 20px;
+    }
+
+    .toggle-btn {
+      background-color: #fff2b2;
+      color: #222222;
+      padding: 10px 20px;
+      font-size: 18px;
+      border: none;
+      border-radius: 12px;
+      cursor: pointer;
+      transition: background-color 0.3s;
+    }
+
+    .toggle-btn:hover {
+      background-color: #fce89e;
+    }
+
+    .contact-links {
+      display: none;
+      margin-top: 20px;
+    }
+
+    .contact-links a {
+      display: block;
+      margin: 10px 0;
+      font-size: 18px;
+      text-decoration: none;
+      color: #222222;
+      background-color: #fff2b2;
+      padding: 10px;
+      border-radius: 10px;
+      transition: background-color 0.3s;
+    }
+
+    .contact-links a:hover {
+      background-color: #fce89e;
+    }
+
+    .back-btn {
+      display: inline-block;
+      margin-top: 40px;
+      padding: 10px 20px;
+      background-color: #fff2b2;
+      color: #222222;
+      text-decoration: none;
+      border-radius: 20px;
+      font-weight: bold;
+      transition: background-color 0.3s;
+    }
+
+    .back-btn:hover {
+      background-color: #fce89e;
+    }
+
+    .custom-disclaimer {
+      margin-top: 60px;
+      text-align: left;
+      font-size: 13px;
+      color: #555555;
+      padding-left: 10px;
+    }
+
+    .custom-disclaimer p {
+      margin: 4px 0;
+    }
+
+    .custom-disclaimer b {
+      display: block;
+      font-weight: bold;
+      margin-bottom: 6px;
+    }
+  </style>
+
+  <script type="text/javascript">
+    function toggleDropdown() {
+      var links = document.getElementById('contactLinks');
+      if (links.style.display === 'block') {
+        links.style.display = 'none';
+      } else {
+        links.style.display = 'block';
+      }
+    }
+  </script>
+</head>
+
+<body>
+
+  <div class="container">
+    <h1>📞 Contact Us</h1>
+
+    <button class="toggle-btn" onclick="toggleDropdown()">Show Contact Options ⬇️</button>
+
+    <div class="contact-links" id="contactLinks">
+      <a href="insta.html"> Instagram</a>
+      <a href="add.html">📍 Address</a>
+      <a href="numb.html">📱 Phone</a>
+    </div>
+
+    <a href="main.html" class="back-btn">← Back to Home</a>
+
+    <div class="custom-disclaimer">
+      <p><b>Disclaimer:</b></p>
+      <p>For best viewing experience, use Google Chrome | 1366 x 768 resolution | last updated: 30 June 2025</p>
+      ©2025 Aida Sofea Binti Mohd Hidil, Nur Damia Aleya Binti Muhammad Ibrahim, Nur Syazwina Binti Ibrahim &amp; Nurjeha Mawaddah Binti Asri.
+      Some media elements like artwork and pictures are original works by the website owners and may not be used without permission. This is not the official website of Meltea and was developed for the purpose of learning XHTML and CSS only.</p>
+    </div>
+
+  </div>
+
+</body>
+</html>

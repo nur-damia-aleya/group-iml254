@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <title> merchandise </title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <style type="text/css">
+    body {
+      font-family: verdana, Helvetica, sans-serif;
+    }
+
+    .flip-box {
+      background-color: transparent;
+      width: 600px;
+      height: 600px;
+      border: 10px solid #f1f1f1;
+      border-color: #C95831;
+      perspective: 1000px;
+      margin: 0 auto;
+    }
+
+    .flip-box-inner {
+      position: relative;
+      width: 100%;
+      height: 100%;
+      text-align: center;
+      transition: transform 0.8s;
+      transform-style: preserve-3d;
+    }
+
+    .flip-box:hover .flip-box-inner {
+      transform: rotateY(180deg);
+    }
+
+    .flip-box-front, .flip-box-back {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      -webkit-backface-visibility: hidden;
+      backface-visibility: hidden;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+    }
+
+    .flip-box-front {
+      background-color: white;
+      color: black;
+    }
+
+    .flip-box-back {
+      background-color: white;
+      color: black;
+      transform: rotateY(190deg);
+    }
+  </style>
+</head>
+<body style="background-color:#9AD6BF;">
+
+<a href="main.html" target="home"></a>
+<h1 style="font-family:verdana;font-size:250%;text-align: center;"><i>OUR SPECIAL MECHANDISE JUST FOR YOU!</i></h1>
+<div class="flip-box">
+  <div class="flip-box-inner">
+    <div class="flip-box-front">
+      <img src="bot.jpg" alt="tumbler" style="width:400px; height:400px;" />
+    </div>
+    <div class="flip-box-back">
+      <h2>Special-tumbler Meltea</h2>
+      <h3>BUY 4 CUPS OF ICE CREAM, GET FREE OUR SPECIAL TUMBLER</h3>
+      <p>Available through walk-in only</p>
+    </div>
+  </div>
+</div>
+
+<div class="flip-box">
+  <div class="flip-box-inner">
+    <div class="flip-box-front">
+      <img src="shi.jpg" alt="shirt" style="width:400px; height:400px;" />
+    </div>
+    <div class="flip-box-back">
+      <h2>Special-shirt Meltea</h2>
+      <h3>BUY 4 CUPS OF ICE CREAM WITH DIFFERENT TOPPINGS, GET FREE OUR SPECIAL SHIRT</h3>
+      <p>Available through walk-in only</p>
+    </div>
+  </div>
+</div>
+
+<div style="margin-top: 100px; width: 100%; padding-left: 10px;">
+  <p style="text-align: left; font-family: verdana; font-size: 14px; font-weight: bold; margin: 0;"> Disclaimer: </p>
+  <p style="text-align:  left; font-family: verdana; font-size: 14px; margin: 0;">
+    For best viewing experience, use Google Chrome | 1366 x 768 resolution | last updated: 30 June 2025 <br />
+    ©2025 Aida Sofea Binti Mohd Hidil, Nur Damia Aleya Binti Muhammad Ibrahim, Nur Syazwina Binti Ibrahim & Nurjeha Mawaddah Binti Asri. <br />
+    Some media elements like artwork and pictures are original works by the website owners and may not be used without permission. This is not the official website of Meltea and was developed for the purpose of learning XHTML and CSS only. <br />
+  </p>
+</div>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
